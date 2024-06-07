@@ -4,6 +4,7 @@ import gallery1 from './images/info_photo.png'
 import gallery2 from './images/Gallery2.png'
 import gallery3 from './images/Gallery3.png'
 import gallery4 from './images/Gallery4.jpeg'
+import { Slide } from "react-awesome-reveal";
 
 function Gallery() {
     let settings = {
@@ -32,26 +33,27 @@ function Gallery() {
         ]
     };
     return (
-        <div className='bg-white px-8 py-4 pb-10' id='news'>
-            <p className='text-center text-2xl md:text-3xl my-2'>Gallery</p>
+        <div className='bg-white px-8 py-4 pb-10' id='gallery'>
+            <p className='text-center font-semibold  text-[#743e2e] text-2xl md:text-3xl my-2'>Gallery</p>
+            <Slide direction="up" >
 
             <Slider {...settings}>
 
-                <div className='bg-[#ac6853] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
+                <div className='bg-[#743e2e] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
                     <img src={gallery1} alt="" className='w-full h-full' />
                 </div>
-                <div className='bg-[#ac6853] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
+                <div className='bg-[#743e2e] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
                     <img src={gallery2} alt="" className='w-full h-full' />
                 </div>
-                <div className='bg-[#ac6853] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
+                <div className='bg-[#743e2e] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
                     <img src={gallery3} alt="" className='w-full h-full' />
                 </div>
-                <div className='bg-[#ac6853] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
+                <div className='bg-[#743e2e] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
                     <img src={gallery4} alt="" className='w-full h-full' />
                 </div>
 
             </Slider>
-
+</Slide>
 
 
         </div>

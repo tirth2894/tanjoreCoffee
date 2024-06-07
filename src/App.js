@@ -5,15 +5,35 @@ import Navbar from "./components/navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import OurBest from "./components/ourBest";
+import ClientTestimonials from "./components/clientTestimonials";
+import GetInTouch from "./components/getInTouch";
+import UpArrow from "./components/upArrow";
+import { Slide } from "react-awesome-reveal";
+
 
 function App() {
   return (
     <div className="font-[Nirmala UI] ">
-      <Navbar/>
-      <Info/>
-      <About/>
-      <Gallery/>
+      <Navbar />
+      <Slide direction="up" >
+        <Info />
+      </Slide>
+
+      <Slide direction="up" >
+        <About />
+      </Slide>
+
+      <Gallery />
+
       <OurBest/>
+
+      <Slide direction="up" >
+        <ClientTestimonials />
+      </Slide>
+
+      <GetInTouch />
+
+      <UpArrow />
     </div>
   );
 }

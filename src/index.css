@@ -6,6 +6,21 @@
     margin: 0px 10px;
 }
 
+.background{
+    background: url('./components/images/background.png') center center/cover;
+    background-repeat: no-repeat;
+}
+
 html{
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background: #743e2e;
 }
