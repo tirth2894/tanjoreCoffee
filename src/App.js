@@ -13,7 +13,7 @@ import { Slide } from "react-awesome-reveal";
 
 function App() {
   return (
-    <div className="font-[Nirmala UI] ">
+    <div className="font-[Nirmala UI] overflow-hidden">
       <Navbar />
       <Slide direction="up" >
         <Info />

@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
-import gallery1 from './images/info_photo.png'
+import gallery1 from './images/Gallery img4.jpeg'
 import gallery2 from './images/Gallery2.png'
 import gallery3 from './images/Gallery3.png'
 import gallery4 from './images/Gallery4.jpeg'
@@ -46,10 +46,10 @@ function Gallery() {
                     <img src={gallery2} alt="" className='w-full h-full' />
                 </div>
                 <div className='bg-[#743e2e] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
-                    <img src={gallery3} alt="" className='w-full h-full' />
+                    <img src={gallery4} alt="" className='w-full h-full' />
                 </div>
                 <div className='bg-[#743e2e] h-80 p-5 rounded-xl my-5 hover:scale-105 transition-transform duration-300 '>
-                    <img src={gallery4} alt="" className='w-full h-full' />
+                    <img src={gallery3} alt="" className='w-full h-full' />
                 </div>
 
             </Slider>

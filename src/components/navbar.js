@@ -41,7 +41,7 @@ function Navbar() {
             </div>
 
             <div className='m-0 flex justify-between items-center py-2 w-full bg-[#743e2e]'>
-                <img src={logo} alt='logo' className='h-20 md:text-2xl p-2 px-4' id='home'/>
+                <img src={logo} alt='logo' className='h-20 md:text-2xl p-2 px-4' id='home' />
                 <IoMenu onClick={toogle} color="white" className='float-right lg:hidden mr-2 h-9 w-9' />
                 <ul className='lg:flex text-xl justify-center items-center font-bold hidden p-2 text-white'>
                     <li className='px-4 hover:text-[#e9bbb0ee] transition-all duration-300'>
